@@ -10,7 +10,7 @@ This repo contains source code for my personal website, **techygeek.me**. It's b
 
 ## File Structure
 ```
-Lokesh-333/github.io (root)
+Lokesh-333.github.io (root)
   |_ README.md
   |_ CNAME
   |_ index.html
