@@ -6,7 +6,7 @@ This repo contains source code for my personal website, **techygeek.me**. It's b
 
 - HTML
 - CSS
-- JAVASCRIPT
+- JavaScript
 
 ## File Structure
 ```
