@@ -1,0 +1,47 @@
+/* --- Light mode styles --- */
+
+.blogs-title{
+  font-family: Arial;
+  font-size: 40px;
+  color: rgb(197, 0, 0);
+}
+.about-blogs{
+  color: rgb(33, 0, 77);
+  font-weight: bold;
+}
+.blogs-title, .about-blogs{
+  text-align: center;
+  margin-bottom: 9px;
+}
+.search-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.search-box{
+  padding: 10px 20px 10px 20px;
+  margin-right: 3px;
+  width: 330px;
+}
+.search-icon{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.blog-card{
+  display: flex;
+}
+.blog-card__image{
+  width: 600px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 15px;
+  border-width: 5px;
+}
+
+/* --- Dark mode styles --- */
+
+body.dark-mode{
+  background-color: rgb(21, 21, 21);
+  color: grey;
+}
