@@ -13,3 +13,6 @@
 
 /* --- this is the sandbox main page css --- */
 @import '/assets/css/sandbox-css/sandbox-main-page.css';
+
+/* --- this is about me main page css --- */
+@import '/assets/css/aboutme-css/aboutme-main-page.css';
