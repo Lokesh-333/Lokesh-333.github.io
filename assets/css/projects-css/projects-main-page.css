@@ -1,0 +1,36 @@
+.info{
+  color: rgb(0, 110, 99);
+  font-size: 24px;
+}
+/* --- Project 1 CSS --- */
+.project-link-1{
+  text-decoration: none;
+  color: white;
+}
+
+.project-container-1{
+  width: 250px;
+  background: linear-gradient(180deg, rgb(110, 0, 161), rgb(202, 59, 231));
+  padding: 10px;
+  border-radius: 20px;
+
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease,
+  scale 0.2s ease;
+}
+.project-container-1:hover{
+  opacity: 0.95;
+
+}
+.project-container-1:active{
+  scale: 0.98;
+}
+
+.project-name-1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+}
+.project-excerpt-1{
+  
+}

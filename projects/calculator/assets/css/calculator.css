@@ -1,0 +1,74 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+h1{
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+}
+
+.calculator-container{
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(200, 200, 200);
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  width: 120px;
+  margin-left: 50px;
+}
+
+#display{
+  width: 120px;
+  height: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(152, 152, 152);
+  background-color: rgb(58, 58, 58);
+  border-radius: 20px;
+  margin-bottom: 10px;
+
+  color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  
+}
+.digit-button{
+  background-color: rgb(44, 44, 44);
+  padding: 5px;
+  border-radius: 100px;
+}
+.operand-button{
+  background-color: rgb(227, 110, 0);
+  border-radius: 5px;
+
+}
+.backspace-button{
+  background-color: rgb(233, 85, 0);
+  border-radius: 10px;
+}
+.all-clear-button{
+  background-color: rgb(220, 44, 0);
+  border-radius: 10px;
+}
+.solve-button{
+  background-color: rgb(0, 116, 0);
+  border-radius: 10px;
+}
+
+.digit-button, .operand-button, .backspace-button, .all-clear-button, .solve-button{
+  border: none;
+  height: 25px;
+  width: 25px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+
+  color: white;
+}
+
+.backspace-image{
+  width: 15px;
+  object-fit: cover;
+}

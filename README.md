@@ -14,6 +14,8 @@ Lokesh-333.github.io (root)
   |_ README.md
   
   |_ CNAME
+  
+  |_ .nojekyll
 
   |_ index.html
 

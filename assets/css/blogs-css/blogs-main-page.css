@@ -30,9 +30,10 @@
 }
 .blog-card{
   display: flex;
+  justify-content: center;
 }
 .blog-card__image{
-  width: 600px;
+  width: 400px;
   aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: 15px;
