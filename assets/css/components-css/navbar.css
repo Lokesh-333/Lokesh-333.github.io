@@ -1,3 +1,5 @@
+/* --- Light Theme --- */
+
 .top-navigation-bar{
   background-color: rgb(1, 97, 180);
   display: flex;
@@ -31,15 +33,30 @@
   width: 50px;
   border-radius: 60px;
 }
-.mode-button{
+.theme-button{
   border-radius: 200px;
   border-width: 2px;
   border-style: solid;
   background-color: rgb(0, 179, 255);
   border-color: rgb(36, 0, 126);
 }
-.mode-icon{
+.theme-icon{
   width: 40px;
   height: 40px;
   object-fit: cover;
+}
+
+/* --- Dark theme --- */
+body.dark-theme{
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-theme .navbar__link{
+  background-color: #333333;
+  color: #f0f0f0;
+}
+
+body.dark-theme .top-navigation-bar{
+  background-color: #1f1f1f;
 }
