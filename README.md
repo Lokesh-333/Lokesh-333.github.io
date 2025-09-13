@@ -9,6 +9,7 @@
 
 ### WEBSITE FOLDER & FILE STRUCTURE
 
+```
 Lokesh-333.github.io (Root)
 |_ README.md
 |_ CNAME
@@ -46,3 +47,4 @@ Lokesh-333.github.io (Root)
   |_ index.html
 |_ /about-me
   |_ index.html
+```
