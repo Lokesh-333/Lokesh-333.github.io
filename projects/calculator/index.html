@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>mini calulator</title>
+  <link rel="stylesheet" href="/projects/calculator/assets/styles/calculator.css">
+</head>
+
+<body>
+  <!-- this is title of my project -->
+  <h1 class="title">CALCULATOR</h1>
+
+  <!-- this is like the calculator complete display + buttons-->
+  <div class="calculator-container">
+
+    <p class="js-display css-display"></p>
+
+    <div class="calculator-buttons-container">
+      <button class="js-all-clear-button css-all-clear-button">AC</button>
+      <button class="js-update-calculation css-operation-button">%</button>
+      <button class="js-update-calculation css-operation-button">/</button>
+      <button class="js-update-calculation css-operation-button">*</button>
+
+      <button class="js-update-calculation css-number-button">7</button>
+      <button class="js-update-calculation css-number-button">8</button>
+      <button class="js-update-calculation css-number-button">9</button>
+      <button class="js-update-calculation css-operation-button">-</button>
+
+      <button class="js-update-calculation css-number-button">4</button>
+      <button class="js-update-calculation css-number-button">5</button>
+      <button class="js-update-calculation css-number-button">6</button>
+      <button class="js-update-calculation css-operation-button">+</button>
+
+      <button class="js-update-calculation css-number-button">1</button>
+      <button class="js-update-calculation css-number-button">2</button>
+      <button class="js-update-calculation css-number-button">3</button>
+      <button class="js-delete-button css-operation-button"><img src="/projects/calculator/assets/images/delete-icon.png" class="delete-icon"></button>
+
+      <button class="js-sign-change-button css-operation-button">+/-</button>
+      <button class="js-update-calculation css-number-button">0</button>
+      <button class="js-update-calculation css-operation-button">.</button>
+      <button class="js-evaluate-button css-evaluate-button">=</button>
+    </div>
+  </div>
+
+  <h2 class="feature">Features</h2>
+  <ul>
+    <li class="feature">can do calculation as usual</li>
+    <li class="feature">remembers the calculation even if refreshed the page, thanks to localStorage</li>
+    <li class="feature">button press feels realistic thanks to box-shadow</li>
+    <!-- this is link to README.md -->
+    <li class="feature"><a href="README.md">read more...</a></li>
+  </ul>
+  <script src="/projects/calculator/assets/scripts/calculator.js"></script>
+</body>
+</html>
