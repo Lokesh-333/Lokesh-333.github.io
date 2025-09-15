@@ -30,17 +30,28 @@ Lokesh-333.github.io (Root)
   |_ /styles
     |_ /main-page
     |_ /projects-page
+      |_ projects.css
     |_ /blogs-page
     |_ /sandbox-page
     |_ /about-me-page
   |_ /scripts
     |_ /main-page
     |_ /projects-page
+      |_ projects.js
     |_ /blogs-page
     |_ /sandbox-page
     |_ /about-me-page
 |_ /projects
   |_ index.html
+  |_ /calculator
+    |_ index.html
+    |_ /assets
+      |_ /images
+      |_ /styles
+        |_ calculator.css
+      |_ /scripts
+        |_ calculator.js
+  |_ ... 
 |_ /blogs
   |_ index.html
 |_ /sandbox
