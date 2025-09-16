@@ -1,0 +1,100 @@
+body{
+  background-color: #30323D;
+  color: white;
+  font-family: Arial;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.title{
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+  width: 395px;
+  border-style: solid;
+  border-color: black;
+  transition: all 0.2s ease;
+}
+.title:hover{
+  border-color: white;
+}
+
+.css-move-icon{
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 200px;
+
+  background-color: #4D5061;
+}
+.css-move-button{
+
+  background-color: #4D5061;
+  margin-right: 10px;
+
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgb(22, 22, 22);
+  padding: 20px;
+  cursor: pointer;
+
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.9);
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+}
+.css-move-button:hover{
+  border-color: rgb(255, 255, 255);
+}
+.css-move-button:active{
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+}
+.css-gen-move{
+  height: 50px;
+  width: 50px;
+}
+.js-reset-score-button{
+  background-color: rgb(91, 91, 138);
+ 
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+
+  transition: all 0.2s ease;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+}
+.js-reset-score-button:hover{
+  border-color: white;
+}
+.js-auto-play-button{
+  background-color: rgb(78, 129, 78);
+  border-style: solid;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+
+}
+.js-auto-play-button:hover{
+ border-color: white;
+}
+
+.green-border{
+  border-color: rgb(0, 255, 0);
+}
+.red-border{
+  border-color: red;
+}
+.grey-border{
+  border-color: grey;
+}
+.green-border:hover{
+  border-color: rgb(0, 255, 0);
+}
+.red-border:hover{
+  border-color: red;
+}
+.grey-border:hover{
+  border-color: grey;
+}

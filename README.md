@@ -51,7 +51,8 @@ Lokesh-333.github.io (Root)
         |_ calculator.css
       |_ /scripts
         |_ calculator.js
-  |_ ... 
+  |_ rock-paper-scissor-game
+  |_ ...
 |_ /blogs
   |_ index.html
 |_ /sandbox
