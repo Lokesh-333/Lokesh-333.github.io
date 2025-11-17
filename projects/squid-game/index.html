@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>~Squid Game~</title>
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <nav class="top-bar">
+    <h1 class="title">Squid Game</h1>
+    <h4 class="js-highest-score highest-score">Highest Score : 0</h4>
+  </nav>
+
+  <main class="js-display display">
+
+    <!-- initially this has start button and how to play -->
+    <div class="how-to-play-container">
+      <div>
+        <img class="how-to-play-image" src="./assets/images/how-to-play.avif">
+      </div>
+      <div>
+        <button class="js-start-game-button start-game-button">START GAME</button>
+      </div>
+
+      <div>
+        <ul class="how-to-play-info">
+          <h4>How to Play</h4>
+          <li>when background is <span class="span-red">red</span>, do not click the button, else u will be <span class="span-red">eliminated!</span></li>
+          <li>when background turns <span class="span-green">green</span>, click the button, it will increase your <span class="span-green">score!</span></li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+  <script type="module" src="./assets/scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('./general.css');
+@import url('./squid-game.css');
+@import url('./eliminated-page.css');
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center everything */
+  align-items: center; /* horizontally center everything */
+  height: 100vh; /* 100% of vertical height (to center in Y axis) */
+  margin: 0px;
+
+  background-color: rgba(18, 18, 18);
+}
+
+.top-bar{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 600px;
+  border: 1px solid rgb(200, 200, 200);
+  background-color: rgb(10, 10, 10);
+
+  padding-bottom: 5px;
+}
+.title{
+  color: rgb(196, 0, 134);
+  font-family: cursive;
+}
+.highest-score{
+  color: rgb(255, 255, 255);
+}
+.display{
+  border: 1px solid black;
+  height: 70%;
+  width: 80%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  max-width: 600px;
+  min-height: 470px;
+
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.how-to-play-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0px;
+  background-color: rgb(10, 10, 10);
+
+  border-radius: 10px;
+}
+.how-to-play-image{
+  width: 100%;
+}
+.start-game-button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 164, 0);
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 0px 5px rgb(0, 196, 59);
+  transform: scale(1.1);
+  cursor: pointer;
+  
+  transition: transform 0.2s ease,
+  box-shadow 0.2s ease,
+  background-color 0.2s ease;
+  font-family:Impact;
+}
+.start-game-button:hover{
+  transform: scale(1.09);
+  box-shadow: 0px 0px 0px rgba(10, 10, 10, 0);
+  background-color: rgb(0, 150, 0);
+}
+.how-to-play-info{
+  margin-bottom: 20px;
+  color: white;
+}
+.span-red{
+  color: rgb(184, 0, 0);
+}
+.span-green{
+  color: rgb(0, 102, 0);
+}
